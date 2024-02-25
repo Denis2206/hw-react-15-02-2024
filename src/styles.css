@@ -1,0 +1,60 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.book {
+    width: 100%;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#book-img {
+    width: 70%;
+    height: 60%;
+}
+
+#book-name {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+#scans {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+#scan-img {
+    width: 90%;
+    height: 100%;
+}
+
+#scanContainer {
+    width: 30%;
+    margin: 1%;
+}
+
+#bio {
+    font-size: 14px;
+}
+
+#containerBio {
+    width: 50%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
